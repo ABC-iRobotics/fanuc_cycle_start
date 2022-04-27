@@ -20,7 +20,7 @@ RUN mkdir -p /root/catkin_ws/src
 WORKDIR /root/catkin_ws/src
 RUN git clone https://github.com/ros-industrial/fanuc.git
 WORKDIR /root/catkin_ws/src/fanuc
-RUN rm -drf .github fanuc_cr35ia_support fanuc_cr7ia_support fanuc_lrmate200i_support fanuc_lrmate200ib_support fanuc_lrmate200id_support fanuc_m10ia_support fanuc_m16ib_support fanuc_m20ia_support fanuc_m20ib_support fanuc_m430ia_support fanuc_m6ib_support fanuc_m710ic_support fanuc_m900ia_support fanuc_m900ib_support fanuc_r1000ia_support moveit_cfgs .gitignore CONTRIBUTING.md LICENSE readme.md
+RUN rm -drf .github fanuc_cr35ia_support fanuc_cr7ia_support fanuc_driver fanuc_lrmate200i_support fanuc_lrmate200ib_support fanuc_lrmate200id_support fanuc_m10ia_support fanuc_m16ib_support fanuc_m20ia_support fanuc_m20ib_support fanuc_m430ia_support fanuc_m6ib_support fanuc_m710ic_support fanuc_m900ia_support fanuc_m900ib_support fanuc_r1000ia_support moveit_cfgs .gitignore CONTRIBUTING.md LICENSE readme.md
 WORKDIR /root/catkin_ws/src
 RUN git clone https://github.com/ABC-iRobotics/fanuc_cycle_start.git
 WORKDIR /root/catkin_ws/src/fanuc_cycle_start
